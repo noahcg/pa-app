@@ -1,4 +1,5 @@
-# pa-app
+# Personal Assistant
+This project is meant to serve as a hub for quick access to for any information I find relevant or interesting.
 
 ## Project setup
 ```
