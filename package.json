@@ -9,6 +9,9 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "bootstrap": "^4.2.1",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "moment": "^2.23.0",
     "vue": "^2.5.21",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
@@ -78,7 +81,7 @@
     "testURL": "http://localhost/"
   },
   "gitHooks": {
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged --no-verify"
   },
   "lint-staged": {
     "*.js": [
